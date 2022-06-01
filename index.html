@@ -14,10 +14,11 @@
         <h1 id="title">Unit Converter</h1>
         <form>
             <input id="input-el" type="number" value="10">
-            <button type="button" id="convert-btn" onclick="convertUnit()">Convert</button>
+            <button type="button" id="convert-btn" onclick="convert()">Convert</button>
         </form>
     </div>
     <div id="answers">
+        <p id="error-el"></p>
         <div class="output">
             <h2>Length (Meter/Feet)</h2>
             <p id="length-el"></p>
