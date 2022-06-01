@@ -34,7 +34,7 @@ body {
     line-height: 3.5rem;
     font-size: 3.5rem;
     width: 20rem;
-    font-family: 'Baumans', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #convert-btn {
@@ -50,7 +50,7 @@ body {
     padding: 5px auto;
     border-radius: 10px;
     font-size: 1.3rem;
-    font-family: 'Baumans', cursive;
+    font-family: 'Open Sans', sans-serif;
     border: none;
 
 }
@@ -63,7 +63,7 @@ body {
 }
 
 #answers {
-    height: 400px;
+    height: 450px;
     background-color: #000000;
     color: #fff;
     display: flex;
