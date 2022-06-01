@@ -17,7 +17,7 @@ body {
 
 #unitInput {
 
-    height: 50vh;
+    height: 60%;
     background: linear-gradient(#ED4800,#F38B17);
     color: #fff;
     display: flex;
@@ -62,7 +62,7 @@ body {
 }
 
 #answers {
-    height: 50vh;
+    height: 400px;
     background-color: #000000;
     color: #fff;
     display: flex;
