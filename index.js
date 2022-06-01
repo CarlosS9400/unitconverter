@@ -11,8 +11,8 @@ let feet = 0;
 let leters = 0;
 let gallons = 0;
 
-let kilograms = 0;
-let pounds = 0;
+let kilograms;
+let pounds;
 
 
 function convert() {
