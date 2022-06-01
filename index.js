@@ -1,5 +1,5 @@
 let lengthEl = document.getElementById("length-el");
-let volumnEl = document.getElementById("volume.el");
+let volumnEl = document.getElementById("volume-el");
 let massEl = document.getElementById("mass-el");
 
 let inputEl = document.getElementById("input-el");
@@ -14,8 +14,9 @@ let kilograms;
 let pounds;
 
 
-function convert(){
+function convertUnit() {
 
+ 
 // meter/feet conversion
 
 feet = inputEl.value * 	3.280839895;
@@ -43,7 +44,7 @@ massEl.textContent =  inputEl.value + " kilograms = " + pounds.toFixed(3) + " po
 
 
 
-//console.log(feet.toFixed(3));
-//console.log(meters.toFixed(3));
+
 }
   
+

@@ -11,6 +11,10 @@ body {
     
 }
 
+#title {
+    margin-bottom: 5vh;
+}
+
 #unitInput {
 
     height: 50vh;
@@ -25,6 +29,13 @@ body {
 
 }
 
+#input-el {
+    line-height: 3.5rem;
+    font-size: 3.5rem;
+    width: 20rem;
+    font-family: 'Baumans', cursive;
+}
+
 #convert-btn {
 
     display: block;
@@ -32,13 +43,14 @@ body {
     
     margin: 5vh auto;
     background-color: #ED4800;
-    color: blue;
+    color: #000;;
     font-weight: 900;
     width: 100px;
     padding: 5px auto;
     border-radius: 10px;
     font-size: 1.3rem;
     font-family: 'Baumans', cursive;
+    border: none;
 
 }
 
@@ -53,24 +65,9 @@ body {
     height: 50vh;
     background-color: #000000;
     color: #fff;
-}
-
-#title {
-    margin-bottom: 5vh;
-}
-
-#input-el {
-    line-height: 3.5rem;
-    font-size: 3.5rem;
-    width: 20rem;
-    font-family: 'Baumans', cursive;
-}
-
-#answers {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .output {
