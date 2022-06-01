@@ -28,8 +28,11 @@ function convert() {
         
        
 
-    }else{
- 
+    }else{\
+
+        errorEl.textContent=""
+
+        
     // meter/feet conversion
 
         feet = inputEl.value * 	3.280839895;
