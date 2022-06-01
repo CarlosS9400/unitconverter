@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div id="unitInput">
+        <h1 id="title">Unit Converter</h1>
+        <form>
+            <input id="input-el" type="number">
+            <buutton id="convert-btn" onclick="convert()">Convert</buutton>
+        </form>
+    </div>
+    <div id="answers">
+        <div class="output">
+            <h2>Length (Meter/Feet)</h2>
+            <p id="length-el"></p>
+        </div>
+
+        <div class="output">
+            <h2>Volume (Liters/Gallons)</h2>
+            <p id="volume.el"></p>
+        </div>
+        
+        <div class="output">
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <p id="mass-el"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
