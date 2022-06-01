@@ -28,7 +28,7 @@ function convert() {
         
        
 
-    }else{\
+    }else{
 
         errorEl.textContent=""
 
